@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(237, 237, 237);
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background-color: #444;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: #fff;
+    width: 85%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+article{
+    background-color: #333;
+    width: 310px;
+    height: 550px;
+    margin: 20px;
+}
+img{
+    width: 310px;
+    margin: 0;
+}
+h3{
+    color: rgb(254, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+h5{
+    color:#b2b2b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-decoration:line-through;
+}
+h2{
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0;
+}
+p{
+    color:#b2b2b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+#acessibilidade{
+    background-color: #350054;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.2px;
+    font-weight: 500;
+}
+#acessibilidade div{
+    margin-left: 30px;
+}
+#principal{
+    background-color: #5a2d82;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+#principal div{
+    margin-left: 30px;
+}
+#principal div input{
+    width: 320px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0;
+}
+#menu{
+    background-color: #ffffff;
+    height: 35px;
+}
+#promocao{
+    background-color: rgb(166, 31, 196);
+}
